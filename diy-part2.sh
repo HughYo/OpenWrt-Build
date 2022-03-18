@@ -12,3 +12,9 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/+uhttpd //g' package/*/*/luci/Makefile
+sed -i 's/+uhttpd-mod-ubus //g' package/*/*/luci/Makefile
+sed -i 's/+luci-theme-bootstrap /+luci-theme-argon/g' package/*/*/luci/Makefile
+
+sed -i '/_redirect2ssl/d' package/feeds/*/nginx/Makefile
+sed -i '/init_lan/d' package/feeds/*/nginx/files/nginx.init
