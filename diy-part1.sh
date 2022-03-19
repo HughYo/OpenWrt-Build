@@ -17,5 +17,5 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git neobird https://github.com/thinktip/luci-theme-neobird.git' >>feeds.conf.default
-git clone https://github.com/thinktip/luci-theme-neobird.git feeds/custom/luci/luci-theme-neobird
-git clone https://github.com/rufengsuixing/luci-app-adguardhome feeds/custom/luci/luci-app-adguardhome
+git clone https://github.com/thinktip/luci-theme-neobird.git package/feeds/luci/luci-theme-neobird
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/feeds/luci/luci-app-adguardhome
