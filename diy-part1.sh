@@ -18,3 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git neobird https://github.com/thinktip/luci-theme-neobird.git' >>feeds.conf.default
 git clone https://github.com/thinktip/luci-theme-neobird.git feeds/custom/luci/luci-theme-neobird
+git clone https://github.com/rufengsuixing/luci-app-adguardhome feeds/custom/luci/luci-app-adguardhome
