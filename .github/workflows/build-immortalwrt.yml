@@ -20,7 +20,7 @@ on:
         default: 'false'
       configfile:
         description: '配置文件名称'
-        default: 'openwrt.config'
+        default: 'immortalwrt.config'
         required: false
         type: string
 
